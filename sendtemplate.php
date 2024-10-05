@@ -42,10 +42,10 @@ if (isset($_POST['submit'])) {
     }
 
     // Redirect back to the form page
-    header("Location: newsletter.php");
+    header("Location: index.php');
     exit();
 } else {
-    header('Location: newsletter.php');
+    header('Location:index.php');
     exit();
 }
 ?>
